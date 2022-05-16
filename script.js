@@ -9,7 +9,7 @@ function on_click(){
         headers: {
             Accept: "application/json",
             'Content-Type': 'application/json',
-            origin: "/wsl%24/Ubuntu/home/genico/practice/site/index.html"
+            origin: "https://genicos.github.io/test_site/"
         },
         method: "POST",
         body: JSON.stringify({
